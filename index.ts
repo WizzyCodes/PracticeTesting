@@ -17,6 +17,7 @@ interface iProps {
 export const objData = (name: string): iProps => {
   return { id: 3, name };
 };
+
 export const extract = (name: string): string => {
   return `Hello ${name}, welcome to CodeLab`;
 };

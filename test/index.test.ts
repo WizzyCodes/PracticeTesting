@@ -51,7 +51,7 @@ describe("to add up 2 numbers, say 1 and 3", () => {
   });
 
   test("Check whether CodeLab is included", () => {
-    let obj = extract("Peter");
+    let obj = extract("CodeLab");
 
     expect("CodeLab").not.toMatch(/I/);
   });
